@@ -2,12 +2,13 @@ import { IconSvgProps } from "@/types";
 
 export const EditIcons = (props: IconSvgProps) => {
   const { size = 24, ...rest } = props;
+
   return (
     <svg
-      width={size}
+      fill="none"
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
@@ -21,12 +22,13 @@ export const EditIcons = (props: IconSvgProps) => {
 
 export const DeleteIcons = (props: IconSvgProps) => {
   const { size = 24, ...rest } = props;
+
   return (
     <svg
-      width={size}
+      fill="none"
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      width={size}
       xmlns="http://www.w3.org/2000/svg"
       {...rest}
     >
